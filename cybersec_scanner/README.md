@@ -45,6 +45,14 @@ Or install dependencies manually:
 ```bash
 pip install dnspython requests colorama
 ```
+Installation & usage tips:
+On Kali Linux
+python3 -m venv venv
+source venv/bin/activate     # On Kali Linux
+.\venv\Scripts\activate      # On Windows PowerShell
+pip install -r requirements.txt
+This keeps the system Python safe and isolates project dependencies — best practice for any Python dev or security researcher.
+
 
 ## Usage
 
@@ -53,7 +61,7 @@ pip install dnspython requests colorama
 Scan a target with default settings:
 
 ```bash
-python netsec_scanner.py example.com
+python netsec_scanner.py example.com(enter your target here )
 ```
 
 ### Advanced Options
