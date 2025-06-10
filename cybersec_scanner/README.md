@@ -29,8 +29,8 @@ A comprehensive cybersecurity tool for scanning networks, identifying vulnerabil
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/secretwriter/network-security-scanner.git
-cd network-security-scanner
+git clone https://github.com/secretwriter/netsec_scanner.git
+cd netsec_scanner
 ```
 
 2. Install required dependencies:
